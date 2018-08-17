@@ -1,9 +1,42 @@
+/* Style for body background */
+  body{
+  background-color: rgb(222, 222, 222)  
+  }
+
+/* Style column backgrounds */
+  .col-md-3{
+  background-color:white;
+  float: right; 
+  position: relative;
+  padding: 2%;
+  }
+
+  .col-md-6{
+  background-color:white;
+  padding: 2%;
+  } 
+
+  .col-md-8{
+  background-color:white;
+  padding: 2%;
+  } 
+
+  .col-xs-3{
+  background-color:white;
+  padding: 2%;
+  } 
+  
+  .col-xs-12{
+  background-color:white;
+  padding: 2%;
+    }
 
 /* Style for h1 page headers */
   .page-header{
     color:  rgb(43, 159, 141);
   }
 
+/* Style for navigation bar latitude header */
   .navbar-default .navbar-brand {
     background: rgb(43, 159, 141);
     color: rgba(255, 255, 255, 0.913);
@@ -31,18 +64,19 @@
 
 /* Styling for responsive images */
 .img-responsive {
-  float: center;
   padding: 5%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Styling for footer */
-  
   html, body {
-    height: 100%;
+    height: 47%;
   }
 
   .page-wrap {
-    min-height: 22%;
+    min-height: 120%;
   }
 
   .page-wrap:after {
@@ -51,7 +85,7 @@
   }
 
   .site-footer, .page-wrap:after {
-    height: 142px; 
+    height: 150px; 
   }
   
   .site-footer {
@@ -80,7 +114,7 @@
     padding: 10px;
     font-size: 30px;
     text-decoration: none;
-    margin: 10px 50px;
+    margin: 10px 30px;
     border-radius: 60%;
   }
   
